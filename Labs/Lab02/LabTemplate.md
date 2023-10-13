@@ -54,13 +54,13 @@ For each, write the command used or answer the question posed.
 3. User:ubuntu
 4. IdentityFile:/home/muhammad10
 5. `~/.ssh/config` contents:
- Host ceg2350
+ 
+```
+Host ceg2350
         user ubuntu
         HostName 3.94.73.255
         IdentityFile /home/muhammad10/ceg235000.pem
         port 22
-```
-Paste your config file entry here
 ```
 
 6. `ssh` command after configuring `config` file:ssh ceg2350
